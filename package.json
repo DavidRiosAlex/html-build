@@ -1,0 +1,29 @@
+{
+  "name": "html-build",
+  "version": "1.0.0",
+  "description": "recognizer html for rendering ",
+  "main": "main.node.v1.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRiosAlex/html-build.git"
+  },
+  "author": "David Alexander Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidRiosAlex/html-build/issues"
+  },
+  "homepage": "https://github.com/DavidRiosAlex/html-build#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.16.0",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "findit": "^2.0.0"
+  }
+}

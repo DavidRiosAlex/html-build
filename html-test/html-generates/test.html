@@ -1,0 +1,23 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <render-in>
+        let string = "";
+
+        for (let item of data.array){
+            string += `<h1> ${item.name} </h1>\n`
+        }
+
+        return string
+    </render-in>
+    <render-in>
+        let string = `<h1>${data.test}</h1>`;
+        return string
+    </render-in>
+</body>
+</html>
